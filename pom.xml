@@ -97,6 +97,7 @@
 		<maven.compile.target>1.8</maven.compile.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- dependencies -->
+        <com.aliyun.oss_aliyun-sdk-oss_version>2.0.5</com.aliyun.oss_aliyun-sdk-oss_version>
         <com.belerweb_pinyin4j_version>2.5.0</com.belerweb_pinyin4j_version>
         <com.fasterxml.jackson.core_version>2.5.4</com.fasterxml.jackson.core_version>
         <com.github.pagehelper_pagehelper_version>3.6.4</com.github.pagehelper_pagehelper_version>
@@ -124,7 +125,7 @@
         <org.springframework.security_version>4.0.0.RELEASE</org.springframework.security_version>
         <taglibs_standard_version>1.1.2</taglibs_standard_version>
         <!-- Azollas -->
-        <org.azolla.l.ling.version>1.0.4</org.azolla.l.ling.version>
+        <org.azolla.l.version>1.0.4</org.azolla.l.version>
         <!-- plugins -->
         <org.apache.tomcat.maven_tomcat7-maven-plugin_version>2.2</org.apache.tomcat.maven_tomcat7-maven-plugin_version>
         <org.jacoco_jacoco-maven-plugin_version>0.7.5.201505241946</org.jacoco_jacoco-maven-plugin_version>
@@ -140,6 +141,11 @@
 	</properties>
 	<dependencyManagement>
 		<dependencies>
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${com.aliyun.oss_aliyun-sdk-oss_version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.belerweb</groupId>
                 <artifactId>pinyin4j</artifactId>
@@ -343,7 +349,7 @@
 			<dependency>
 				<groupId>org.azolla.l</groupId>
 				<artifactId>org.azolla.l.ling</artifactId>
-				<version>${org.azolla.l.ling.version}</version>
+				<version>${org.azolla.l.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
