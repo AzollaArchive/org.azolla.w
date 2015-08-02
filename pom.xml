@@ -125,7 +125,7 @@
         <org.springframework.security_version>4.0.0.RELEASE</org.springframework.security_version>
         <taglibs_standard_version>1.1.2</taglibs_standard_version>
         <!-- Azollas -->
-        <org.azolla.l.version>1.0.4</org.azolla.l.version>
+        <org.azolla.l.version>1.0.5</org.azolla.l.version>
         <!-- plugins -->
         <org.apache.tomcat.maven_tomcat7-maven-plugin_version>2.2</org.apache.tomcat.maven_tomcat7-maven-plugin_version>
         <org.jacoco_jacoco-maven-plugin_version>0.7.5.201505241946</org.jacoco_jacoco-maven-plugin_version>
