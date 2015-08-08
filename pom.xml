@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.azolla.w</groupId>
 	<artifactId>org.azolla.w</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.6</version>
 	<packaging>pom</packaging>
 	<name>Azolla.org Web-based Top Parent</name>
 	<description>This project is Azolla.org Web-based top parent</description>
@@ -99,8 +99,8 @@
 		<!-- dependencies -->
         <com.aliyun.oss_aliyun-sdk-oss_version>2.0.5</com.aliyun.oss_aliyun-sdk-oss_version>
         <com.belerweb_pinyin4j_version>2.5.0</com.belerweb_pinyin4j_version>
-        <com.fasterxml.jackson.core_version>2.5.4</com.fasterxml.jackson.core_version>
-        <com.github.pagehelper_pagehelper_version>3.6.4</com.github.pagehelper_pagehelper_version>
+        <com.fasterxml.jackson.core_version>2.6.0</com.fasterxml.jackson.core_version>
+        <com.github.pagehelper_pagehelper_version>4.0.0</com.github.pagehelper_pagehelper_version>
         <com.google.code.findbugs_jsr305_version>3.0.0</com.google.code.findbugs_jsr305_version>
         <com.google.guava_guava_version>18.0</com.google.guava_guava_version>
         <com.google.zxing_version>3.2.0</com.google.zxing_version>
@@ -113,26 +113,26 @@
         <javax.servlet_jstl_version>1.2</javax.servlet_jstl_version>
         <junit_junit_version>4.12</junit_junit_version>
         <log4j_log4j_version>1.2.17</log4j_log4j_version>
-        <mysql_mysql-connector-java_version>5.1.35</mysql_mysql-connector-java_version>
+        <mysql_mysql-connector-java_version>5.1.36</mysql_mysql-connector-java_version>
         <netbeans_nbantext_version>4.0</netbeans_nbantext_version><!-- ref:ant;dep: -->
-        <org.apache.ant_ant_version>1.9.4</org.apache.ant_ant_version>
+        <org.apache.ant_ant_version>1.9.6</org.apache.ant_ant_version>
         <org.apache.commons_commons-dbcp2_version>2.1</org.apache.commons_commons-dbcp2_version>
         <org.aspectj_version>1.8.5</org.aspectj_version>
-        <org.mybatis_mybatis_version>3.2.8</org.mybatis_mybatis_version>
-        <org.mybatis_mybatis-spring_version>1.2.2</org.mybatis_mybatis-spring_version>
+        <org.mybatis_mybatis_version>3.3.0</org.mybatis_mybatis_version>
+        <org.mybatis_mybatis-spring_version>1.2.3</org.mybatis_mybatis-spring_version>
         <org.slf4j_version>1.7.12</org.slf4j_version>
-        <org.springframework_version>4.1.6.RELEASE</org.springframework_version>
-        <org.springframework.security_version>4.0.0.RELEASE</org.springframework.security_version>
+        <org.springframework_version>4.2.0.RELEASE</org.springframework_version>
+        <org.springframework.security_version>4.0.2.RELEASE</org.springframework.security_version>
         <taglibs_standard_version>1.1.2</taglibs_standard_version>
         <!-- Azollas -->
-        <org.azolla.l.version>1.0.5</org.azolla.l.version>
+        <org.azolla.l.version>1.0.6</org.azolla.l.version>
         <!-- plugins -->
         <org.apache.tomcat.maven_tomcat7-maven-plugin_version>2.2</org.apache.tomcat.maven_tomcat7-maven-plugin_version>
         <org.jacoco_jacoco-maven-plugin_version>0.7.5.201505241946</org.jacoco_jacoco-maven-plugin_version>
 		<maven-compiler-plugin.version>3.3</maven-compiler-plugin.version><!-- org.apache.maven -->
 		<maven-gpg-plugin.version>1.6</maven-gpg-plugin.version><!-- org.apache.maven.plugins -->
-		<maven-javadoc-plugin.version>2.10.2</maven-javadoc-plugin.version><!-- org.apache.maven.plugins -->
-		<maven-release-plugin.version>2.5.1</maven-release-plugin.version><!-- org.apache.maven.plugins -->
+		<maven-javadoc-plugin.version>2.10.3</maven-javadoc-plugin.version><!-- org.apache.maven.plugins -->
+		<maven-release-plugin.version>2.5.2</maven-release-plugin.version><!-- org.apache.maven.plugins -->
 		<maven-resources-plugin.version>2.7</maven-resources-plugin.version><!-- org.apache.maven.plugins -->
 		<maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version><!-- org.apache.maven.plugins -->
 		<maven-surefire-report-plugin.version>2.18.1</maven-surefire-report-plugin.version><!-- org.apache.maven.plugins -->
