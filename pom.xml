@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.azolla.w</groupId>
 	<artifactId>org.azolla.w</artifactId>
-	<version>2.0.2</version>
+	<version>2.0.3</version>
 	<packaging>pom</packaging>
 	<name>Azolla.org Web-based Top Parent</name>
 	<description>Azolla.org Web-based Top Parent</description>
@@ -99,7 +99,6 @@
 		<!-- dependencies -->
         <com.aliyun.oss_aliyun-sdk-oss_version>2.0.5</com.aliyun.oss_aliyun-sdk-oss_version>
         <com.belerweb_pinyin4j_version>2.5.0</com.belerweb_pinyin4j_version>
-        <com.fasterxml.jackson.core_version>2.6.0</com.fasterxml.jackson.core_version>
         <com.github.pagehelper_pagehelper_version>4.0.0</com.github.pagehelper_pagehelper_version>
         <com.google.code.findbugs_jsr305_version>3.0.0</com.google.code.findbugs_jsr305_version>
         <com.google.guava_guava_version>18.0</com.google.guava_guava_version>
@@ -125,7 +124,7 @@
         <org.springframework.security_version>4.0.2.RELEASE</org.springframework.security_version>
         <taglibs_standard_version>1.1.2</taglibs_standard_version>
         <!-- Azollas -->
-        <org.azolla.l.version>2.0.2</org.azolla.l.version>
+        <org.azolla.l.version>2.0.3</org.azolla.l.version>
         <!-- plugins -->
         <org.apache.tomcat.maven_tomcat7-maven-plugin_version>2.2</org.apache.tomcat.maven_tomcat7-maven-plugin_version>
         <org.jacoco_jacoco-maven-plugin_version>0.7.5.201505241946</org.jacoco_jacoco-maven-plugin_version>
