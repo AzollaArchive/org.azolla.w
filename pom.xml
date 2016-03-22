@@ -4,7 +4,7 @@
 	<artifactId>org.azolla.w</artifactId>
 	<version>2.0.3</version>
 	<packaging>pom</packaging>
-	<name>Azolla.org Web-based Top Parent</name>
+	<name>Azolla.org Web-based</name>
 	<description>Azolla.org Web-based Top Parent</description>
 	<url>https://github.com/Azollas/org.azolla.w</url>
 	<inceptionYear>2011</inceptionYear>
@@ -14,10 +14,10 @@
 	</organization>
 	<licenses>
 		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<name>MIT</name>
+			<url>https://opensource.org/licenses/MIT</url>
 			<distribution>repo</distribution>
-			<comments>The Azolla.org Web-based is released under version 2.0 of the Apache License.</comments>
+			<comments>The Azolla.org Web-based is released under MIT License.</comments>
 		</license>
 	</licenses>
 	<developers>
@@ -42,8 +42,8 @@
 			<name>iShaneKing</name>
 			<email>git@azolla.org</email>
 			<url>https://github.com/iShaneKing</url>
-			<organization>Azollas</organization>
-			<organizationUrl>https://github.com/Azollas</organizationUrl>
+			<organization>iShaneKings</organization>
+			<organizationUrl>https://github.com/iShaneKings</organizationUrl>
 			<roles>
 				<role>Team Leader</role>
 			</roles>
